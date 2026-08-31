@@ -1,24 +1,57 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
     <title>Tic Tac Toe</title>
+
     <style>
-        html, body {
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
             margin: 0;
+            padding: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
+            background: #000;
+        }
+
+        body {
+            min-height: 100vh;
+            min-height: 100dvh;
         }
 
         iframe {
+            display: block;
             width: 100%;
-            height: 100%;
-            border: none;
+            height: 100vh;
+            height: 100dvh;
+            border: 0;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
+
 <body>
-    <iframe src="https://tictoe-52nqd54.public.builtwithrocket.new/?rk_owner=true"
-    style="width:100%; height:100vh; border:0;"></iframe>
+
+    <iframe
+        src="https://tictoe-52nqd54.public.builtwithrocket.new/?rk_owner=true"
+        title="Tic Tac Toe"
+        allow="fullscreen"
+        allowfullscreen
+    ></iframe>
+
 </body>
 </html>
+```
