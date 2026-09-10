@@ -1,13 +1,8 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Tic Tac Toe</title>
 
@@ -18,25 +13,24 @@
 
         html,
         body {
-            margin: 0;
-            padding: 0;
+            margin: 0 !important;
+            padding: 0 !important;
             width: 100%;
             height: 100%;
             overflow: hidden;
             background: #000;
         }
 
-        body {
-            min-height: 100vh;
-            min-height: 100dvh;
-        }
-
         iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
             display: block;
-            width: 100%;
+            width: 100vw;
             height: 100vh;
             height: 100dvh;
-            border: 0;
+            border: none;
+            outline: none;
             margin: 0;
             padding: 0;
         }
@@ -44,14 +38,11 @@
 </head>
 
 <body>
-
     <iframe
         src="https://chess-com-style-sos-game-922025145372.asia-southeast1.run.app"
-        title="Tic Tac Toe"
+        title="SOS"
         allow="fullscreen"
-        allowfullscreen
-    ></iframe>
-
+        allowfullscreen>
+    </iframe>
 </body>
 </html>
-```
