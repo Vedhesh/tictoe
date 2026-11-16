@@ -1,13 +1,11 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    >
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Daily Race</title>
 
@@ -16,27 +14,23 @@
             box-sizing: border-box;
         }
 
-        html,
-        body {
+        html, body {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background: #000;
-        }
-
-        body {
-            min-height: 100vh;
-            min-height: 100dvh;
+            background: transparent;
         }
 
         iframe {
-            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 100vh;
-            height: 100dvh;
-            border: 0;
+            height: 100%;
+            border: none;
+            display: block;
             margin: 0;
             padding: 0;
         }
@@ -54,4 +48,4 @@
 
 </body>
 </html>
-```
+
